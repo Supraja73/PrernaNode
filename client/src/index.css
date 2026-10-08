@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-mist text-ink dark:bg-void dark:text-white transition-colors duration-300;
+}
+
+.glass {
+  @apply bg-white/70 dark:bg-[rgba(24,19,41,0.55)] border border-black/5 dark:border-white/10 backdrop-blur-xl;
+}
+
+::selection {
+  @apply bg-violet text-white;
+}

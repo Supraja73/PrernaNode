@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /messages
+Disallow: /notifications
+Disallow: /profile
+Disallow: /profile/edit
+
+Sitemap: https://prernanode.app/sitemap.xml
