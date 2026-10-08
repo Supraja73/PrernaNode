@@ -17,6 +17,7 @@ that area further. The full API surface is indexed in [`API_DOCS.md`](./API_DOCS
 ## Table of contents
 
 - [Overview](#overview)
+- [Screenshots](https://github.com/Supraja73/PrernaNode#screenshots)
 - [Architecture](#architecture)
 - [Folder structure](#folder-structure)
 - [Feature list](#feature-list)
@@ -30,6 +31,7 @@ that area further. The full API surface is indexed in [`API_DOCS.md`](./API_DOCS
 - [Future scope](#future-scope)
 - [Contributors guide](#contributors-guide)
 - [License](#license)
+
 
 ---
 
@@ -49,6 +51,28 @@ Every phase was built with the same constraint: **no mock data, no fake APIs, no
 placeholder components.** Where a feature genuinely needs external configuration to
 work (the AI assistant needs an Anthropic API key; email needs SMTP credentials), the
 code fails with a clear, honest error rather than faking a response.
+
+## Screenshots
+
+### Landing Page — Light Mode
+
+![PrernaNode Landing Page - Light Mode](docs/screenshots/prernanode-landing-lightpage.png)
+
+### Landing Page — Dark Mode
+
+![PrernaNode Landing Page - Dark Mode](docs/screenshots/prernanode-landing-darkpage.png)
+
+### Community Feed
+
+![PrernaNode Community Feed](docs/screenshots/community-feed.png)
+
+### Opportunities Hub
+
+![PrernaNode Opportunities](docs/screenshots/opportunities.png)
+
+### User Profile
+
+![PrernaNode User Profile](docs/screenshots/profile.png)
 
 ## Architecture
 
